@@ -9,7 +9,7 @@ var nome_aluno = aluno_academia.nome;
 var peso_aluno = aluno_academia.peso;
 var altura_aluno = aluno_academia.altura;
 
-var imc_aluno = peso_aluno / (altura_aluno * altura_aluno).toFixedd(2);
+var imc_aluno = (peso_aluno / (altura_aluno * altura_aluno)).toFixed(2);
 
 if (imc_aluno < 18.5 ) {
     console.log("O aluno " + nome_aluno + "está abaixo do peso");
