@@ -1,4 +1,4 @@
-//Estrutura de repetição while percorrendo array
+//Estrutura de repetição while percorrendo array, código copiado do estrutura-repeticao.js. A modificação desse código será futura.
 
 let paises = ["Brasil", "Suiça", "França", "Japão"]
 
