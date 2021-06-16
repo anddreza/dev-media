@@ -14,6 +14,7 @@ for (let contador = 0; contador < produtos.length; contador++){
         let preco = propriedade;
         let novo_preco = produto[preco].desconto;
 
+        //comentario 
         console.log("preço atualizado: R$" + novo_preco + ",00");
     } else {
         console.log(propriedade + ": " + produto[propriedade]);
